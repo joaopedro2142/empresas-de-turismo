@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{margin: 0; padding: 0;}
+
+body{
+	background-color: #f0f0f0;
+}	
+
+
+header, #img-topo{
+	width: 100%;
+	background-color: #0191A4;
+}
+
+nav{
+	background-color: #0191A4;
+	padding: 16px;
+	text-align: center;
+}	
+
+
+.menu:link, .menu:visited{	
+	color: #fff;
+	font: 1.2rem 'Poppins', sans-serif;
+	text-decoration: none;
+	font-weight: 700;
+	margin-right: 20px;
+}
+
+.menu:hover, .menu:active{
+	color:#00BCD4;	
+}
+
+main, #pag-passagens-aereas, #pag-de-promoção, #pag-hoteis, #pag-passagens-de-onibus {
+	padding: 50px;
+}	
+
+h1, h3{
+	text-align: center;
+	color: #00BCD4;
+	font-family: 'Poppins', cursive;
+	font-size: 3rem;
+	margin-bottom: 20px;	
+}	
+
+p{
+	text-align: justify;
+	color:  #777;
+	font: 1.3rem 'Poppins', sans-serif;
+}
+
+h2{
+	color: #3F51B5;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2rem;
+}
+
+#pag-passagens-aereas h2, #pag-passagens-aereas p{
+	color: #448AFF;
+}	
+
+ul{
+	list-style-type: circle;
+	list-style-position inside;
+	margin-left: 50px;
+}
+
+li{
+	color: #03A9F4;
+	font: 1.3rem 'Poppins', sans-serif;
+	line-height: 2.5rem;
+}	
+
+#pag-de-promoção{
+	background-color: #EEEEEE;
+}
+
+.container{
+	display: flex;
+	 
+}	
+
+.card{
+	width: 25%;
+	background-color: #fff;
+	border-radius: 14px;
+	margin: 10px;
+	box-shadow: 10px 10px 10px #CCC;
+	transform: 3s;
+}
+
+.card:hover{
+	box-shadow: 10px 10px 10px #777;
+}	
+
+.card img{
+	width: 100%;
+	border-radius: 14px 14px 0 0;
+}	
+
+.card-conteudo{
+	padding: 15px;
+}
+
+h3{
+	font-size: 1.5rem;
+}	
+
+.card-conteudo p{
+	text-align: center;
+	font-size: 1rem;
+}
+
+#pag-hoteis{
+	background-color: #fff;
+}
+
+.conteudo-trenos .container{
+	justify-content: center;
+	align-itens: center;
+	gap: 10px;
+
+}
+
+footer{
+	background-color: #212121;
+}
+
+
+footer p, footer a{
+	color: #FFF;
+	text-align: center;
+}
+
+footer a{
+	text-decoration: none;
+	font-weight: 700;
+}
+
+
+
+
+/* PAGINA PASSAGENS PARA ONIBUS */
+
+#pag-passagens-para-onibus p{
+	text-align: center;
+}
+
+form{
+	background-color: #FFF;
+	padding: 20px;
+	width: 400px;
+	margin: 40px auto;
+	border-radius: 14px;
+	box-shadow: 0 0 10px #ccc;
+}
+
+input, select, fieldset, textarea{
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #448AFF;
+	border-radius: 4px;
+	font: 1rem 'Poppins', sans-serif;
+	color: #777;
+	margin-bottom: 10px;
+}	
+
+label{
+	font: 1.1rem 'Poppins', sans-serif;
+	color: #448AFF;
+}
+
+
